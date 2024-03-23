@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contact-cont{
+    width: 100vw;
+    height: 85vh;
+    background-color: #335994;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-header{
+    background: url(../assets/contact\ us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+}
+.contact-info{
+    width: 50%;
+    height: 100%;
+    padding-top: 100px;
+    color: white;
+}
+.contact-info div h1{
+    font-size: 44px;
+}
+.contact-info div p{
+    font-size: 34px;
+    line-height: 44px;
+}
+
+.contact-info div:first-child{
+    margin-bottom: 30px;
+}
+.contact-info div:nth-child(2){
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.contact-info div img{
+    height: 100%;
+}
+.contact-info div:nth-child(2) span{
+    display: block;
+    margin-left: 40px;
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.contact-info div:last-child a{
+    color: #F7D246;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}

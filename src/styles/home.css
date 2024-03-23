@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
+
 .home-cont{
     width: 100vw;
 }
@@ -91,3 +92,188 @@ hr{
     border: none;
     font-size: 18px;
 }
+.image-cont{
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#playground{
+    background: url(../assets/playground.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#ch1{
+    background: url(../assets/ch1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 60vh;
+}
+#ch2{
+    background: url(../assets/ch2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 60vh;
+}
+
+.flashnews-cont{
+    background-color: #335994;
+    width: 100%;
+    height: 200vh;
+    padding: 80px;
+}
+.flashnews-cont .s1{
+    width: 100%;
+    height: 33%;
+    display: flex;
+}
+.s1>div{
+    width: 50%;
+    height: 100%;
+}
+.s1 div img{
+    width: 90%;
+    height: 90%;
+    /* object-fit: scale-down; */
+    border-radius: 200px 0px 0px 0px;
+}
+.s1 div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.s1 div h1{
+    font-size: 62px;
+    font-weight: 800;
+}
+.s1 div h1 span{
+    display: block;
+    line-height: 52px;
+    margin-bottom: 10px;
+}
+.s1 div h1 span:first-child{
+    color: white;
+}
+.s1 div h1 span:nth-child(2){
+    color: #F7D246;
+}
+.s1 div h1 span:nth-child(3) , .s1 div h1 span:nth-child(4) {
+    color: aliceblue;
+    font-weight: 200;
+}
+.s1 div p{
+    width: 90%;
+    font-size: 22px;
+    color: aliceblue;
+    font-weight: 200;
+}
+.s1 button{
+    background-color: #D9354D;
+    border: none;
+    width: 150px;
+
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.flashnews-cont .s2{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    color: white;
+}
+.s2>div{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s2>div>div{
+    width: 100%;
+}
+.s2 div h1{
+    font-size: 62px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.s2 div h1 span{
+    display: block;
+    line-height: 52px;
+    margin-bottom: 10px;
+}
+.s2 div h1 span:first-child{
+    color: #F7D246;
+}
+.s2 div img{
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+}
+.s2 button{
+    display: block;
+    background-color: #D9354D;
+    border: none;
+    width: 150px;
+    margin: 20px auto;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+.flashnews-cont .s3{
+    width: 100%;
+    height: 33%;
+    display: flex;
+}
+.s3>div{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s3>div>div{
+    width: 100%;
+    text-align: center;
+}
+.s3 div h1{
+    font-size: 62px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.s3 div h1 span{
+    display: block;
+    line-height: 52px;
+    margin-bottom: 10px;
+}
+.s3 div h1 span:first-child{
+    color: #F7D246;
+}
+.s3 div img{
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+}
+.s3 button{
+    display: block;
+    background-color: #D9354D;
+    border: none;
+    width: 150px;
+    margin: 20px auto;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+

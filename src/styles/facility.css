@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.facility-cont{
+    width: 100vw;
+    background-color: #335994;
+}
+
+.header-text{
+    width: 100%;
+    height: 350px;
+}
+.header-text div{
+    width: 100%;
+    height: 100%;
+    background:url(../assets/facilities.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.facility-images{
+    width: 100%;
+    height: 150vh;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    row-gap: 10px;
+}
+.facility-images img{
+    height: 50vh;
+    width: 99%;
+}
+
+
+.facility-info{
+    background-color: #335994;
+    width: 100vw;
+    padding:40px 80px;
+    color: white;
+}
+.facility-info div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.facility-info div span{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    display: block;
+}
+.facility-info div h1{
+    color: #F7D246;
+    font-weight: 700;
+    font-size: 26px;
+}

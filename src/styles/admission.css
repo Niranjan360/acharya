@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.admissions-cont{
+    width: 100vw;
+    background-color: #335994;
+}
+.admission-header-image{
+    width: 100%;
+    height: 300px;
+    background:url(../assets/addmission.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.admissions-info{
+    width: 100%;
+    padding: 40px 120px 80px 120px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.admissions-info p{
+    font-size: 26px;
+}
+.admissions-info span{
+    font-size: 26px;
+    font-weight: 800;
+}

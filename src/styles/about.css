@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.about-cont{
+    width: 100vw;
+    background-color: #335994;
+}
+.header-cont{
+    width: 100%;
+    height: 600px;
+    padding: 80px;
+    display: flex;
+}
+.header-cont div:first-child{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.header-cont div:first-child h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+.header-cont div:first-child h1 span{
+    display: block;
+    line-height: 100px;
+    transform: scaleY(1.4);
+    color: #F7D246;
+}
+.header-cont div:first-child h1 span:first-child{
+   color: white;
+}
+
+
+.header-cont div:last-child{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-cont div:last-child p{
+    font-weight: 300;
+    color: aliceblue;
+}
+.header-cont div:last-child p span{
+    font-weight: 700;
+    color: white;
+}
+.founders-message{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.founder-image{
+    background:url(../assets/founder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+}
+.founders-message div:last-child{
+    width: 60%;
+    height: 100%;
+    display: grid;
+    padding-left:30px;
+}
+.founders-message div:last-child h1{
+    font-size: 70px;
+    color: white;
+    font-weight: 800;
+    /* margin-bottom: 20px; */
+}
+.founders-message div:last-child h1 span{
+    display: block;
+}
+.founders-message div:last-child p{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+}
+.image-displayer{
+    width: 100vw;
+    height: 100vh;
+    background: url(../assets/playground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+}
+
+.our-moto{
+    width: 100%;
+    height: 100vh;
+}
+.our-moto .message{
+    width: 100%;
+    height: 50%;
+    padding: 10px 80px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.header-msg{
+    background:url(../assets/motto.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.para-msg{
+    display: flex;
+    align-items: center;
+}
+.para-msg p{
+    padding: 30px;
+    font-size: 18px;
+    color: aliceblue;
+    line-height: 30px;
+}
+.para-msg p span{
+    color: white;
+    font-weight: 600;
+}
+.moto-images{
+    background:url(../assets/doublesnaps.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+}
+.our-message{
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+}
+.mission{
+    width: 100%;
+    height: 50%;
+    padding: 10px 80px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.vision{
+    width: 100%;
+    height: 50%;
+    padding: 10px 80px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.mission-image{
+    background:url(../assets/mission.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.vission-image{
+    background:url(../assets/vision.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.para-msg{
+    display: flex;
+    align-items: center;
+}
+.para-msg p{
+    padding: 30px;
+    font-size: 16px;
+    color: aliceblue;
+    line-height: 30px;
+}
+.para-msg p span{
+    color: white;
+    font-weight: 700;
+}
